@@ -3,6 +3,59 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+header, footer {
+    flex-basis: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 1em;
+}
+
+nav{
+    flex-basis: 100%;
+    padding: 2px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: darkgreen;
+}
+
+nav li{
+    margin: 0;
+}
+
+nav a{
+    display: block;
+    padding: .1em;
+    color: darkgreen;
+    font-weight: 900;
+    font-size: 1.75em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: bisque;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+article{
+    flex: 3 1 0;
+    min-width: 0;
+}
+
+figure image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 h1, h2, h3 {
     color: darkgreen;
 }
@@ -12,7 +65,6 @@ p {
 }
 
 ol, ul{
-    border: 2px solid rgb(255, 5, 255);
     padding: 5px 20px;
     border-radius: 6px;
     background-color:#f4d6a0;
