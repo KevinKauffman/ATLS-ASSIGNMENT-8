@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3 {
+    color: darkgreen;
+}
+
+p {
+    color: charcoal;
+}
+
+ol, ul{
+    border: 2px solid rgb(255, 5, 255);
+    padding: 5px 20px;
+    border-radius: 6px;
+    background-color:#f4d6a0;
+}
+
+strong, {
+    color: darkgreen;
+}
+
+em {
+    color: green;
+}
