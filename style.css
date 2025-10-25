@@ -61,7 +61,7 @@ h1, h2, h3 {
 }
 
 p {
-    color: charcoal;
+    color: #36454F;
 }
 
 ol, ul{
@@ -70,7 +70,7 @@ ol, ul{
     background-color:#f4d6a0;
 }
 
-strong, {
+strong {
     color: darkgreen;
 }
 
